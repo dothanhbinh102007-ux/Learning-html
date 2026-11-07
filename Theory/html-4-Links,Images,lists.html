@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lesson 4 – Links, Images & Lists</h1>
+    <!--Links-->
+    <a href="URL">Link text</a> <!--a tao the, href: chua link-->
+    <a href="https://www.google.com">Visit Google</a>
+    <a target="_blank"></a> <!-- mo trong tap moi, neu dung self thi mo trong tab nay-->
+    <a href="https://www.youtube.com"
+    target="_blank"
+    rel="noopener noreferrer">
+    visit YouTube
+    </a>
+
+    <h1 id="top">MyTune</h1> <!-- nut quay lai dau trang-->
+
+    <a href="#projects">Go to My Projects</a> <!-- danh dau vi tri, #tham chieu toi ID-->
+
+    <div style="height: 500px;"></div>
+
+    <h2 id="projects">My Projects</h2>
+
+    <img src="image.jpg" alt="Description"> <!-- src: duong dan den hinh anh, alt: ho tro neu nhu anh loi-->
+    
+    <img
+    src="music.jpg"
+    alt="Music cover"
+    width="300" 
+    height="300"> <!--thay doi kich thuoc-->
+
+    <!-- co 2 loai duong dan-->
+     <!-- duong dan vi tri thu muc-->
+      <img src="images/album1.jpg" alt="Album 1">
+      <!-- duong dan tuyet doi-->
+       <img
+        src="https://example.com/images/album.jpg"
+        alt="Album">
+        <!--Lists – Danh sách trong HTML -->
+        <h2>My Favorite Genres</h2>
+        <!-- theo cham-->
+        <ul>
+            <li>Pop</li>
+            <li>Rock</li>
+            <li>Jazz</li>
+            <li>Classical</li>
+        </ul>
+        <!-- theo so thu tu-->
+         <h2>My Top 3 Songs</h2>
+
+        <ol>
+            <li>Perfect</li>
+            <li>Shape of You</li>
+            <li>Photograph</li>
+        </ol>
+
+        <!--Description List – Danh sách mô tả-->
+        <dl>
+            <dt>MyTune</dt>
+            <dd>A personal music library.</dd>
+
+            <dt>HTML</dt>
+            <dd>A markup language for web pages.</dd>
+        </dl>
+        <!--dl: toan bo danh sach mo ta, dt: ten hoac thuat ngu, dd: noi dung giai thich-->
+
+        <!-- danh sach long vao nhau-->
+        <ul>
+            <li>Pop
+                <ul>
+                    <li>Perfect</li>
+                    <li>Shape of You</li>
+                </ul>
+            </li>
+
+            <li>Rock
+                <ul>
+                    <li>Song A</li>
+                    <li>Song B</li>
+                </ul>
+            </li>
+        </ul>
+</body>
+</html>
